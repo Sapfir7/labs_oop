@@ -16,6 +16,11 @@ TEST(test_03, basic_test_set)
     ASSERT_TRUE(tobin(0,0)==0);
 }
 
+TEST(test_04, basic_test_set)
+{
+    ASSERT_TRUE(tobin(100,1000)==4622);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
